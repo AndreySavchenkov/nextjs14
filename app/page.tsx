@@ -4,6 +4,11 @@ import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 import clsx from 'clsx';
 import Image from 'next/image';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'MainPage',
+};
 
 export default function Page() {
   return (
